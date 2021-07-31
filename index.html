@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Font explorer</title>
+	<link rel="stylesheet" href="./style.css">
+	<script defer src="main.js"></script>
+</head>
+<body>
+	<noscript>
+		This website requires Javascript to run. Please enable Javscript and reload the page.
+	</noscript>
+	
+	<div class="main-wrapper">
+		<div class="display-text-container">
+			<div class="tab">
+				<div class="input-and-label display-text-input-container">
+					<label for="display-text-input">Text to display</label>
+					<input maxlength="99" type="text" name="display-text-input" id="display-text-input">
+				</div>
+			</div>
+
+			<div class="content">
+				<div id="text-display" data-default-value="Insert some text...">Insert some text...</div>
+			</div>
+		</div>
+
+
+		<div class="font-list-container">
+			<div class="tab">
+				<div class="input-and-label font-search-input-container">
+					<label for="font-search-input">Search font</label>
+					<input maxlength="99" type="text" name="font-search-input" id="font-search-input">
+				</div>
+			</div>
+
+			<div class="content">
+				<div id="font-list">
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
